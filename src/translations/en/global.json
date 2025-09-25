@@ -1,0 +1,146 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About Me",
+        "portfolio": "Portfolio",
+        "desc1": "Data Engineer and ",
+        "desc2": "FullStack Developer"
+    },
+    "about": {
+        "header1": "ABOUT ME",
+        "title1": "Data Engineer",
+        "desc": "Hi! I'm Jesús, a Junior Data Engineer with experience in data analysis and Full-Stack development. Over the past two years, I've worked on data extraction, transformation, and automation, as well as building interactive dashboards and web solutions. I have strong expertise in analytics and visualization tools such as PowerBI, Looker Studio, R Studio, Python, and MySQL, along with back-end technologies (Django, NodeJS, Java) and front-end technologies (React, JavaScript, HTML5, CSS3). I've also been involved in migrating ETL processes to Python with Prefect, implementing CI/CD pipelines, and developing web scrapers for competitive analysis. I'm passionate about creating solutions that combine data engineering, analytics, and software development, with a strong focus on automation, efficiency, and scalability. I am results-driven, always learning, and highly collaborative.",
+        "resume": "Resume",
+        "personal": {
+            "age": "Age",
+            "city": "City",
+            "cityValue": "Mexico City",
+            "email": "Email",
+            "emailValue": "jetoga99@gmail.com",
+            "freelance": "Freelance",
+            "freelanceValue": "Available"
+        },
+        "education": {
+            "title": "Education",
+            "degrees": [
+                {
+                    "degree": "Software Development Engineering",
+                    "years": "2024 - 2026",
+                    "location": "Virtual University of the State of Guanajuato"
+                },
+                {
+                    "degree": "Bachelor of Physics",
+                    "years": "2018 - 2023",
+                    "location": "National Autonomous University of Mexico"
+                }
+            ]
+        },
+        "certifications": {
+            "title": "Courses and Certifications",
+            "certs": [
+                {
+                    "course": "Google Data Analytics",
+                    "year": "2022",
+                    "location": "Coursera"
+                },
+                {
+                    "course": "NMA Deep Learning",
+                    "year": "2022",
+                    "location": "Neuromatch Academy"
+                },
+                {
+                    "course": "Scientific Computing With Python",
+                    "year": "2022",
+                    "location": "freeCodeCamp"
+                }
+            ]
+        },
+        "jobs": {
+            "title": "Professional Experience",
+            "exp": [
+                {
+                    "title": "Data Engineer Jr",
+                    "company": "MOBO",
+                    "location": "Mexico City",
+                    "duration": "May 2025 - Present",
+                    "description": "Participated in the migration of ETL processes from SSIS to Python, optimizing performance and enabling greater flexibility and maintainability. Implemented data workflows orchestrated with Prefect, allowing for more efficient task scheduling and retry handling. Integrated SQL Server Analysis Services (SSAS) for multidimensional data analysis and validation within processing pipelines. Contributed to the implementation of CI/CD pipelines to automate testing and deployment of data workflows, improving team collaboration and delivery cycles. Developed scripts for automated data extraction and transformation from various sources, enabling enriched analytics and reporting.",
+                    "technologies": "Python, Prefect, SSAS, GitHub Actions, CI/CD, SQL Server, PowerBI"
+                },
+                {
+                    "title": "BI Engineer Marketing & Promotion",
+                    "company": "Samsung",
+                    "location": "Mexico City",
+                    "duration": "Nov 2023 - Apr 2025",
+                    "description": "Maintenance and updating of dashboards in Excel using formulas and Visual Basic. Proposals for migration to PowerBI dashboards to allow for a more innovative maintenance cycle and less prone to human error. Creation of code in Python for data extraction from platforms for subsequent transformation and analysis of data. Development of a crawler using Python to compare offers with competitor brands and analyze their potential impact on sales.",
+                    "technologies": "Excel, VBA, Python, PowerBI"
+                },
+                {
+                    "title": "Data Analyst",
+                    "company": "SOPRIS Technologies, INC.",
+                    "location": "CDMX",
+                    "duration": "Aug - Oct 2023",
+                    "description": "Maintenance and development of solutions for report creation through Plotly, Dash. Development using Git and data extraction using BigQuery for subsequent manipulation using Python. Creation and maintenance of dashboards using Looker Studio. Study and documentation of load flows in Looker.",
+                    "technologies": "Python, Dash, Git, BigQuery, Looker Studio"
+                },
+                {
+                    "title": "Social Service",
+                    "company": "IIMAS, UNAM",
+                    "location": "CDMX",
+                    "duration": "Feb - Sep 2023",
+                    "description": "Development of improvements on a website dedicated to tweet analysis with a primary focus on COVID-19, creation of forms for user creation, updating of the database through CRUD operations with MySQL, React and integration with Django. Implementation of code for the analysis of tweets stored in MongoDB.",
+                    "technologies": "Python, Django, React, Postman, MySQL, MongoDB"
+                },
+                {
+                    "title": "Data Mining and Credit Specialist",
+                    "company": "Fincomún",
+                    "location": "CDMX",
+                    "duration": "May - Jul 2023",
+                    "description": "Process automation for credit assignment through decision policies through data extraction from Credit Bureau products (Watch, Adviser). Database development for subsequent exploitation and obtaining of indicators or delivery to suppliers.",
+                    "technologies": "Python, R Studio, Excel, PowerBI"
+                },
+                {
+                    "title": "Risk Analyst",
+                    "company": "Fincomún",
+                    "location": "CDMX",
+                    "duration": "Jan - Apr 2023",
+                    "description": "Preparation and updating of daily reports for early detection of portfolio deterioration. Creation of dashboards using Python and PowerBI to observe historical data in order to detect patterns to modify risk policies. Creation of workflows in Power Automate for automatic report delivery.",
+                    "technologies": "Python, R Studio, Excel, PowerBI, Power Automate"
+                },
+                {
+                    "title": "Risk Intern",
+                    "company": "Fincomún",
+                    "location": "CDMX",
+                    "duration": "Oct 2022 - In 2023",
+                    "description": "Workflow design for process automation in Excel through Python with the objective of obtaining metrics. Data cleaning and transformation using Python and R Studio. Creation of reports for management presentation.",
+                    "technologies": "Python, R Studio, Excel"
+                },
+                {
+                    "title": "Freelance Web Development",
+                    "company": "Generation",
+                    "location": "CDMX",
+                    "duration": "Aug - Oct 2022",
+                    "description": "Layout and design of a website using CSS, HTML and Figma, interaction development with the page using JavaScript and back-end development by designing a database with MySQL and integration with Java.",
+                    "technologies": "CSS, HTML, Figma, JavaScript, MySQL, Java, Git, Github"
+                }
+            ]
+        }
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "imageSrc": "./LogoPJ.png",
+                "title": "PrecioJusto - Price Tracking Platform",
+                "text": "Development of web application to compare product prices in stores across Mexico. Creation of API to obtain product prices in Django and data visualization in React.",
+                "icons": ["faReact", "faJs", "faDatabase"],
+                "refs": "https://preciojustomx.mx/"
+            },
+            {
+                "imageSrc": "./scraper.jpg",
+                "title": "Price Tracking Platform",
+                "text": "Development of a comprehensive price tracking platform for multiple online stores using Python scrapers and React frontend. Features real-time price monitoring and historical data analysis.",
+                "icons": ["faPython", "faReact", "faDatabase"],
+                "refs": "https://app.powerbi.com/view?r=eyJrIjoiNDRlNDZkYzctZTA5Mi00YzBkLWJhNzQtOTQxYWI1MDFmZjdjIiwidCI6ImNjYTQwNjVjLWFjNzgtNDIzZi04ZTFhLTUxMGQ1ODQxNWY5MyJ9"
+            }
+        ]
+    }
+}
